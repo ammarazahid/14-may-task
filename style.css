@@ -44,6 +44,11 @@ h1,#top{
     font-family: 'Josefin Sans', sans-serif;
 }
 
+*{
+    font-family: 'Montserrat', sans-serif;
+
+}
+
 header{
     background-color:#ed484c;
     color: white;
@@ -138,6 +143,11 @@ li a{
      margin: auto;
  }
 
+ #services>div div:hover i{
+    color: #ef3b4c;
+    transition: color 1s;
+ }
+
  #html,#css,#js{
      display: flex;
      flex-direction: column;
@@ -166,6 +176,8 @@ li a{
 
 
 }
+
+
 
 /* .portfolio-para{
     display: flex;
@@ -202,14 +214,21 @@ li a{
 
 }
 
+#contact button:hover{
+    color: #fcdea6;
+    background-color: #222;
+    transition: color 1s, background-color 1s;
+    cursor: pointer;
+}
+
 #contact button{
     color: black;
     background-color:#afc7c6;
-    padding: 13px;
-    border-radius: 106px;
+    padding: 20px 19px;
+    border-radius: 50px;
     margin: 10px;
     border: 1px solid black;
-    font-size: 40px;
+    font-size: 3em;
 
 }
 
@@ -238,4 +257,11 @@ footer{
     font-size: 20px;
 
 }
+
+footer:hover i{
+    color: #ef3b4c;
+    transition: color 1s, background-color 1s;
+    
+}
+
 
