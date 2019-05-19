@@ -1,0 +1,241 @@
+/* write your styles here *//* Navigation Header*/
+/* header {
+	width: 100%;
+	float: left;
+	padding: 41px 0px;
+}
+
+	
+
+#nav {
+	width: 460px;
+	float: right;
+	padding: 7px 0px;
+}
+
+#nav nav {
+	float: left;
+	width: 100%;
+}
+
+#nav nav ul {
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+#nav nav ul li {
+	display: inline-block;
+}
+
+#nav nav ul li a {
+    color: #777777;
+    text-decoration: none;
+    font-size: 14px;
+    padding-right: 38px;
+	font-family: MontserratR;
+}
+
+#nav nav ul li:last-child a {
+    padding: 0;
+} */
+/* write your styles here */
+h1,#top{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+header{
+    background-color:#ed484c;
+    color: white;
+    border: 0;
+    padding: 0; 
+    margin-bottom: 5px;
+
+}
+
+main > div{
+    margin-bottom: none;
+}
+
+#top {
+    display: flex;
+    flex-direction: row;
+    background-color: #4c4c4c;
+    border: 0;
+    padding: 0;
+}
+
+#logo img{
+    height: 44px;
+    width: 77px;
+    
+}
+
+#logo{
+    margin-right: auto;
+}
+
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+li{
+    float: right;
+}
+
+li a{
+     display: block;  
+      margin-left: 10px;
+      text-decoration: none;
+      color: white;
+}
+
+#info{
+    background-image: url(images/floral.png);
+    background-color: #f18d97;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+ }
+
+ p{
+     border: 1px solid black;
+     border-right: none;  
+     border-left:  none;
+     padding: 10px;
+ }
+
+ button{
+     background-color: black;
+     padding: 10px 40px;
+     margin-bottom: 10px;
+     color: #f18d97;
+     border: none;
+
+
+ }
+
+ #services{
+     background-color: #efece7;
+     background-image: url(images/floral.png);
+     padding-top: 10px; 
+
+ }
+
+ #services i{
+     font-size: 80px;
+ }
+
+ #services > div{
+     display: flex;
+     flex-direction: row;
+     width: 900px;
+     margin: auto;
+ }
+
+ #html,#css,#js{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center; 
+ }
+
+ #services p{
+     border: none;
+ }
+
+ h2{
+     text-align: center;
+     font-family: 'Dancing Script', cursive;
+
+}
+
+#portfolio{
+    background-image: url(images/floral.png);
+    background-color: #ddceb4;
+    padding-top: 10px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+/* .portfolio-para{
+    display: flex;
+    flex-direction: inherit;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-left: none;
+    border-right: none;
+
+ */
+
+
+
+#projects img{
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    margin: 14px;
+    border-radius: 13px
+}
+
+#projects div{
+    display: flex;
+    flex-direction: row;
+}
+
+#contact{
+    background-image: url(images/floral.png);
+    background-color:#afc7c6;
+    padding-top: 10px; 
+
+    
+
+}
+
+#contact button{
+    color: black;
+    background-color:#afc7c6;
+    padding: 13px;
+    border-radius: 106px;
+    margin: 10px;
+    border: 1px solid black;
+    font-size: 40px;
+
+}
+
+#contact div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer{
+    color: white;
+    padding: 5px;
+}
+
+footer{
+    display: flex;
+    flex-direction: inherit;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+#footer i{
+    margin: 3px;
+    font-size: 20px;
+
+}
+
