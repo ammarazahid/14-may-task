@@ -113,6 +113,7 @@ li a{
      border-right: none;  
      border-left:  none;
      padding: 10px;
+     font-weight: 550;
  }
 
  button{
@@ -153,7 +154,14 @@ li a{
      flex-direction: column;
      justify-content: center;
      align-items: center; 
+     margin: 20px;
  }
+
+ #services>div{
+     display: flex;
+     justify-content: center;
+ }
+
 
  #services p{
      border: none;
@@ -162,6 +170,7 @@ li a{
  h2{
      text-align: center;
      font-family: 'Dancing Script', cursive;
+     font-weight: bold;
 
 }
 
@@ -189,20 +198,26 @@ li a{
     border-right: none;
 
  */
-
+section{
+    width: 800px;
+}
 
 
 #projects img{
     width: 150px;
     height: 150px;
     display: inline-block;
-    margin: 14px;
+    margin: 31px;
     border-radius: 13px
 }
 
-#projects div{
+section div{
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+}
+
+#projects img:hover{
+    background-color: #222; 
 }
 
 #contact{
@@ -228,7 +243,7 @@ li a{
     border-radius: 50px;
     margin: 10px;
     border: 1px solid black;
-    font-size: 3em;
+    font-size: 2em;
 
 }
 
