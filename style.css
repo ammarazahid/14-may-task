@@ -230,7 +230,7 @@ figcaption{
     opacity: 0.7;
 }
 
-figcaption:hover figure{
+figure:hover figcaption{
 	display: flex;
 }
 
