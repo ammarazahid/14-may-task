@@ -211,6 +211,16 @@ section{
     border-radius: 13px
 }
 
+figcaption{
+	background-color: black;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	color: white;
+}
+	
+
 section div{
     display: flex;
     justify-content: center;
