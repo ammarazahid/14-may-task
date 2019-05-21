@@ -219,6 +219,12 @@ figcaption{
 	align-items: center;
 	color: white;
 }
+
+figure i{
+	font-size: 10px;
+	border: 1px solid white;
+	border-radius: 100%;
+}
 	
 
 section div{
