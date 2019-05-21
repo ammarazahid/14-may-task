@@ -207,17 +207,13 @@ section{
     width: 150px;
     height: 150px;
     display: inline-block;
-    margin: 31px;
+    margin: 20px;
     border-radius: 13px
 }
 
 section div{
     display: flex;
     justify-content: center;
-}
-
-#projects img:hover{
-    background-color: #222; 
 }
 
 #contact{
