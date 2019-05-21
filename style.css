@@ -211,6 +211,10 @@ section{
     border-radius: 13px
 }
 
+figure{
+	position: relative;
+}
+
 figcaption{
 	background-color: black;
     display: none;
