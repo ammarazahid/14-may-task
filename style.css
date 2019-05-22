@@ -140,6 +140,12 @@ li a{
      font-size: 80px;
  }
 
+#services p{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
  #services > div{
      display: flex;
      flex-direction: row;
