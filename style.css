@@ -49,6 +49,10 @@ h1,#top{
 
 }
 
+body{
+   margin: 0;
+}
+
 header{
     background-color:#ed484c;
     color: white;
