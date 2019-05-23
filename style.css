@@ -65,6 +65,9 @@ marquee{
     margin-bottom: 2px;
 
 }
+header{
+	width: 100%;
+}
 
 main > div{
     margin-bottom: none;
@@ -327,6 +330,10 @@ footer:hover i{
 @media screen and (min-width:300px) and (max-width: 786px){
 	 h1{
 		text-align: center;
+	}
+	
+	nav{
+		padding: 5px;
 	}
 
 		
