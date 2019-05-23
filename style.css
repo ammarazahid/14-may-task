@@ -325,6 +325,11 @@ footer:hover i{
 }
 
 @media screen and (min-width:300px) and (max-width: 786px){
+	 h1{
+		text-align: center;
+	}
+
+		
         #services > div{
             display: flex;
             flex-direction: column;
@@ -346,12 +351,5 @@ footer:hover i{
     
 }
 
-@media only screen and(min-width:600px){
-
-}
-
-@media only screen and(min-width: 768px){
-
-}
 
 
