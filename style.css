@@ -366,7 +366,8 @@ footer:hover i{
 @media screen and (min-width: 500px) and (max-width:600px) {
 #projects div{
 	display: grid;
-	grid-tamplet:;
+	grid-template-columns: 300px;
+        margin: 0em 11em;
 	}
 
 
