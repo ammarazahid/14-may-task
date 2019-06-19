@@ -331,11 +331,16 @@ footer:hover i{
 	 h1{
 		text-align: center;
 	}
-	
+/* 	
 	nav{
 		padding: 5px;
 	}
-
+	 */
+	nav li{
+	 list-style: none;
+        padding: 7px 4px;
+        margin: 4px 3px;
+	}
 		
         #services > div{
             display: flex;
@@ -356,6 +361,18 @@ footer:hover i{
 
         }
     
+}
+
+@media screen and (min-width: 500px) and (max-width:600px) {
+#projects div{
+	display: grid;
+	grid-tamplet:;
+	}
+
+
+
+
+
 }
 
 
