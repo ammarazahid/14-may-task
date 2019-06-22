@@ -102,6 +102,10 @@ ul{
 
 }
 
+input, button{
+    outline: none;
+}
+
 li{
     float: right;
     padding: 0 10px;
